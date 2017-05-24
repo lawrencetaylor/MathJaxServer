@@ -35,3 +35,12 @@ yields
 
 ![Commutative Diagram](https://raw.githubusercontent.com/lawrencetaylor/MathJaxServer/master/docs/images/Commutative.PNG?raw=true)
 
+
+## Running within a Docker container
+
+You can run this application as a docker container:
+
+    docker run -p 1729:6174 lawrencetaylor/mathjaxserver
+
+This will expose the web application on port 1729 of your local machine.
+
